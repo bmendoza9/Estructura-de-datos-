@@ -1,0 +1,9 @@
+C:\Users\Bruno\Documents\Visual Studio 2017\Projects\Matricesclase\Matricesclase\bin\Debug\Matricesclase.exe.config
+C:\Users\Bruno\Documents\Visual Studio 2017\Projects\Matricesclase\Matricesclase\bin\Debug\Matricesclase.exe
+C:\Users\Bruno\Documents\Visual Studio 2017\Projects\Matricesclase\Matricesclase\bin\Debug\Matricesclase.pdb
+C:\Users\Bruno\Documents\Visual Studio 2017\Projects\Matricesclase\Matricesclase\obj\Debug\Matricesclase.csprojResolveAssemblyReference.cache
+C:\Users\Bruno\Documents\Visual Studio 2017\Projects\Matricesclase\Matricesclase\obj\Debug\Matricesclase.Form1.resources
+C:\Users\Bruno\Documents\Visual Studio 2017\Projects\Matricesclase\Matricesclase\obj\Debug\Matricesclase.Properties.Resources.resources
+C:\Users\Bruno\Documents\Visual Studio 2017\Projects\Matricesclase\Matricesclase\obj\Debug\Matricesclase.csproj.GenerateResource.Cache
+C:\Users\Bruno\Documents\Visual Studio 2017\Projects\Matricesclase\Matricesclase\obj\Debug\Matricesclase.exe
+C:\Users\Bruno\Documents\Visual Studio 2017\Projects\Matricesclase\Matricesclase\obj\Debug\Matricesclase.pdb

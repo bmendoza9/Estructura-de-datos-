@@ -1,0 +1,10 @@
+C:\Users\Bruno\source\repos\Graficosdetortuga\Graficosdetortuga\obj\Debug\Graficosdetortuga.csprojResolveAssemblyReference.cache
+C:\Users\Bruno\source\repos\Graficosdetortuga\Graficosdetortuga\obj\Debug\Graficosdetortuga.Form1.resources
+C:\Users\Bruno\source\repos\Graficosdetortuga\Graficosdetortuga\obj\Debug\Graficosdetortuga.Properties.Resources.resources
+C:\Users\Bruno\source\repos\Graficosdetortuga\Graficosdetortuga\obj\Debug\Graficosdetortuga.csproj.GenerateResource.Cache
+C:\Users\Bruno\source\repos\Graficosdetortuga\Graficosdetortuga\obj\Debug\Graficosdetortuga.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\source\repos\Graficosdetortuga\Graficosdetortuga\bin\Debug\Graficosdetortuga.exe.config
+C:\Users\Bruno\source\repos\Graficosdetortuga\Graficosdetortuga\bin\Debug\Graficosdetortuga.exe
+C:\Users\Bruno\source\repos\Graficosdetortuga\Graficosdetortuga\bin\Debug\Graficosdetortuga.pdb
+C:\Users\Bruno\source\repos\Graficosdetortuga\Graficosdetortuga\obj\Debug\Graficosdetortuga.exe
+C:\Users\Bruno\source\repos\Graficosdetortuga\Graficosdetortuga\obj\Debug\Graficosdetortuga.pdb

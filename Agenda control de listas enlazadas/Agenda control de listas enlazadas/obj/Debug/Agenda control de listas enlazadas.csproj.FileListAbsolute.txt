@@ -8,3 +8,23 @@ C:\Users\Bruno\source\repos\Agenda control de listas enlazadas\Agenda control de
 C:\Users\Bruno\source\repos\Agenda control de listas enlazadas\Agenda control de listas enlazadas\bin\Debug\Agenda control de listas enlazadas.pdb
 C:\Users\Bruno\source\repos\Agenda control de listas enlazadas\Agenda control de listas enlazadas\obj\Debug\Agenda control de listas enlazadas.exe
 C:\Users\Bruno\source\repos\Agenda control de listas enlazadas\Agenda control de listas enlazadas\obj\Debug\Agenda control de listas enlazadas.pdb
+C:\Users\Bruno\source\repos\Agenda control de listas enlazadas DOBLES\Agenda control de listas enlazadas\bin\Debug\Agenda control de listas enlazadas.exe.config
+C:\Users\Bruno\source\repos\Agenda control de listas enlazadas DOBLES\Agenda control de listas enlazadas\bin\Debug\Agenda control de listas enlazadas.exe
+C:\Users\Bruno\source\repos\Agenda control de listas enlazadas DOBLES\Agenda control de listas enlazadas\bin\Debug\Agenda control de listas enlazadas.pdb
+C:\Users\Bruno\source\repos\Agenda control de listas enlazadas DOBLES\Agenda control de listas enlazadas\obj\Debug\Agenda control de listas enlazadas.csprojResolveAssemblyReference.cache
+C:\Users\Bruno\source\repos\Agenda control de listas enlazadas DOBLES\Agenda control de listas enlazadas\obj\Debug\Agenda_control_de_listas_enlazadas.Form1.resources
+C:\Users\Bruno\source\repos\Agenda control de listas enlazadas DOBLES\Agenda control de listas enlazadas\obj\Debug\Agenda_control_de_listas_enlazadas.Properties.Resources.resources
+C:\Users\Bruno\source\repos\Agenda control de listas enlazadas DOBLES\Agenda control de listas enlazadas\obj\Debug\Agenda control de listas enlazadas.csproj.GenerateResource.Cache
+C:\Users\Bruno\source\repos\Agenda control de listas enlazadas DOBLES\Agenda control de listas enlazadas\obj\Debug\Agenda control de listas enlazadas.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\source\repos\Agenda control de listas enlazadas DOBLES\Agenda control de listas enlazadas\obj\Debug\Agenda control de listas enlazadas.exe
+C:\Users\Bruno\source\repos\Agenda control de listas enlazadas DOBLES\Agenda control de listas enlazadas\obj\Debug\Agenda control de listas enlazadas.pdb
+C:\Users\Bruno\source\repos\Agenda control de listas enlazadas simples\Agenda control de listas enlazadas\obj\Debug\Agenda control de listas enlazadas.csprojResolveAssemblyReference.cache
+C:\Users\Bruno\source\repos\Agenda control de listas enlazadas simples\Agenda control de listas enlazadas\obj\Debug\Agenda_control_de_listas_enlazadas.Form1.resources
+C:\Users\Bruno\source\repos\Agenda control de listas enlazadas simples\Agenda control de listas enlazadas\obj\Debug\Agenda_control_de_listas_enlazadas.Properties.Resources.resources
+C:\Users\Bruno\source\repos\Agenda control de listas enlazadas simples\Agenda control de listas enlazadas\obj\Debug\Agenda control de listas enlazadas.csproj.GenerateResource.Cache
+C:\Users\Bruno\source\repos\Agenda control de listas enlazadas simples\Agenda control de listas enlazadas\obj\Debug\Agenda control de listas enlazadas.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\source\repos\Agenda control de listas enlazadas simples\Agenda control de listas enlazadas\obj\Debug\Agenda control de listas enlazadas.exe
+C:\Users\Bruno\source\repos\Agenda control de listas enlazadas simples\Agenda control de listas enlazadas\obj\Debug\Agenda control de listas enlazadas.pdb
+C:\Users\Bruno\source\repos\Agenda control de listas enlazadas simples\Agenda control de listas enlazadas\bin\Debug\Agenda control de listas enlazadas.exe.config
+C:\Users\Bruno\source\repos\Agenda control de listas enlazadas simples\Agenda control de listas enlazadas\bin\Debug\Agenda control de listas enlazadas.exe
+C:\Users\Bruno\source\repos\Agenda control de listas enlazadas simples\Agenda control de listas enlazadas\bin\Debug\Agenda control de listas enlazadas.pdb

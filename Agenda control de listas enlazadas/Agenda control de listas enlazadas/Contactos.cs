@@ -15,11 +15,17 @@ namespace Agenda_control_de_listas_enlazadas
             long _telefono;
             int _edad;
             Contactos _siguiente;
+            Contactos _anterior;
 
             public Contactos Siguiente
             {
                 get { return _siguiente; }
                 set { _siguiente = value; }
+            }
+            public Contactos Anterior
+            {
+                get { return _anterior; }
+                set { _anterior = value; }
             }
 
             public string Nombre
@@ -53,9 +59,9 @@ namespace Agenda_control_de_listas_enlazadas
                 set { _edad = value; }
             }
 
-            public string String()
+            public override string ToString()
             {
-                return "Nombre: " + _nombre + Environment.NewLine + "Apellido parterno: " + _apellidoPaterno + Environment.NewLine + "Apellido Materno:" + _apellidoMaterno + Environment.NewLine + "Correo:" + _correo + Environment.NewLine + "Edad:" + _edad + Environment.NewLine + "Telefono" + Telefono + Environment.NewLine;
+                return "Nombre: " + _nombre + Environment.NewLine + "Apellido parterno: " + _apellidoPaterno + Environment.NewLine + "Apellido Materno: " + _apellidoMaterno + Environment.NewLine + "Teléfono: " + Telefono + Environment.NewLine + "Correo: " + _correo + Environment.NewLine + "Edad: " + _edad + Environment.NewLine;
             }
         }
 }

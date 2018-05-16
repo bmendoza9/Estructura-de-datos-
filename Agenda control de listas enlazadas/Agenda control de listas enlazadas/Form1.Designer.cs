@@ -32,7 +32,6 @@
             this.button_eliminar = new System.Windows.Forms.Button();
             this.button_agregar = new System.Windows.Forms.Button();
             this.button_listar = new System.Windows.Forms.Button();
-            this.button_editar = new System.Windows.Forms.Button();
             this.button_insertar = new System.Windows.Forms.Button();
             this.button_eliminarprimero = new System.Windows.Forms.Button();
             this.button_eliminarultimo = new System.Windows.Forms.Button();
@@ -51,11 +50,13 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.txtMostrar = new System.Windows.Forms.TextBox();
+            this.txt_pos = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button_buscar
             // 
-            this.button_buscar.Location = new System.Drawing.Point(0, 0);
+            this.button_buscar.Location = new System.Drawing.Point(0, 29);
             this.button_buscar.Name = "button_buscar";
             this.button_buscar.Size = new System.Drawing.Size(75, 23);
             this.button_buscar.TabIndex = 0;
@@ -65,7 +66,7 @@
             // 
             // button_eliminar
             // 
-            this.button_eliminar.Location = new System.Drawing.Point(0, 29);
+            this.button_eliminar.Location = new System.Drawing.Point(0, 55);
             this.button_eliminar.Name = "button_eliminar";
             this.button_eliminar.Size = new System.Drawing.Size(75, 23);
             this.button_eliminar.TabIndex = 1;
@@ -75,7 +76,7 @@
             // 
             // button_agregar
             // 
-            this.button_agregar.Location = new System.Drawing.Point(0, 58);
+            this.button_agregar.Location = new System.Drawing.Point(0, 1);
             this.button_agregar.Name = "button_agregar";
             this.button_agregar.Size = new System.Drawing.Size(75, 23);
             this.button_agregar.TabIndex = 2;
@@ -85,7 +86,7 @@
             // 
             // button_listar
             // 
-            this.button_listar.Location = new System.Drawing.Point(0, 87);
+            this.button_listar.Location = new System.Drawing.Point(0, 116);
             this.button_listar.Name = "button_listar";
             this.button_listar.Size = new System.Drawing.Size(75, 23);
             this.button_listar.TabIndex = 3;
@@ -93,19 +94,9 @@
             this.button_listar.UseVisualStyleBackColor = true;
             this.button_listar.Click += new System.EventHandler(this.button_listar_Click);
             // 
-            // button_editar
-            // 
-            this.button_editar.Location = new System.Drawing.Point(0, 116);
-            this.button_editar.Name = "button_editar";
-            this.button_editar.Size = new System.Drawing.Size(75, 23);
-            this.button_editar.TabIndex = 4;
-            this.button_editar.Text = "Editar";
-            this.button_editar.UseVisualStyleBackColor = true;
-            this.button_editar.Click += new System.EventHandler(this.button_editar_Click);
-            // 
             // button_insertar
             // 
-            this.button_insertar.Location = new System.Drawing.Point(0, 145);
+            this.button_insertar.Location = new System.Drawing.Point(0, 87);
             this.button_insertar.Name = "button_insertar";
             this.button_insertar.Size = new System.Drawing.Size(75, 23);
             this.button_insertar.TabIndex = 5;
@@ -257,11 +248,29 @@
             this.txtMostrar.Size = new System.Drawing.Size(332, 175);
             this.txtMostrar.TabIndex = 22;
             // 
+            // txt_pos
+            // 
+            this.txt_pos.Location = new System.Drawing.Point(367, 119);
+            this.txt_pos.Name = "txt_pos";
+            this.txt_pos.Size = new System.Drawing.Size(46, 20);
+            this.txt_pos.TabIndex = 23;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(364, 97);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(47, 13);
+            this.label7.TabIndex = 24;
+            this.label7.Text = "Posición";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(451, 353);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.txt_pos);
             this.Controls.Add(this.txtMostrar);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -280,7 +289,6 @@
             this.Controls.Add(this.button_eliminarultimo);
             this.Controls.Add(this.button_eliminarprimero);
             this.Controls.Add(this.button_insertar);
-            this.Controls.Add(this.button_editar);
             this.Controls.Add(this.button_listar);
             this.Controls.Add(this.button_agregar);
             this.Controls.Add(this.button_eliminar);
@@ -299,7 +307,6 @@
         private System.Windows.Forms.Button button_eliminar;
         private System.Windows.Forms.Button button_agregar;
         private System.Windows.Forms.Button button_listar;
-        private System.Windows.Forms.Button button_editar;
         private System.Windows.Forms.Button button_insertar;
         private System.Windows.Forms.Button button_eliminarprimero;
         private System.Windows.Forms.Button button_eliminarultimo;
@@ -318,6 +325,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtMostrar;
+        private System.Windows.Forms.TextBox txt_pos;
+        private System.Windows.Forms.Label label7;
     }
 }
 

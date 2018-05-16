@@ -28,12 +28,11 @@ namespace Agenda_control_de_listas_enlazadas
             Contactos busqueda = agenda.buscar(Convert.ToInt32(txtTelefono.Text));
             if (busqueda != null)
             {
-                txtTelefono.Text = busqueda.Telefono.ToString();
-                txtNombre.Text = busqueda.Nombre;
-                txtApPaterno.Text = busqueda.ApellidoPaterno;
-                txtApMaterno.Text = busqueda.ApellidoMaterno;
-                txtCorreo.Text = busqueda.Correo;
-                txtEdad.Text = busqueda.Edad.ToString();
+                txtMostrar.Text = busqueda.ToString();
+            }
+            else
+            {
+                MessageBox.Show("No se ha encontrado el contacto");
             }
         }
         private void limpiarTxT()
@@ -50,11 +49,11 @@ namespace Agenda_control_de_listas_enlazadas
         {
             if (agenda.eliminar(Convert.ToInt32(txtTelefono.Text)))
             {
-                MessageBox.Show("Contacto eliminado");
+                MessageBox.Show("Se ha eliminado el contacto");
             }
             else
             {
-                MessageBox.Show("Contacto no encontrado");
+                MessageBox.Show("No se ha podido encontrar el contacto");
             }
             limpiarTxT();
         }
@@ -62,7 +61,7 @@ namespace Agenda_control_de_listas_enlazadas
         private void button_agregar_Click(object sender, EventArgs e)
         {
             Contactos NuevoContacto = new Contactos();
-            NuevoContacto.Telefono = Convert.ToInt32(txtTelefono.Text);
+            NuevoContacto.Telefono = Convert.ToInt64(txtTelefono.Text);
             NuevoContacto.Nombre = txtNombre.Text;
             NuevoContacto.ApellidoPaterno = txtApPaterno.Text;
             NuevoContacto.ApellidoMaterno = txtApMaterno.Text;
@@ -76,45 +75,20 @@ namespace Agenda_control_de_listas_enlazadas
 
         private void button_listar_Click(object sender, EventArgs e)
         {
-            Contactos NuevoContacto = new Contactos();
-            NuevoContacto.Telefono = Convert.ToInt32(txtTelefono.Text);
-            NuevoContacto.Nombre = txtNombre.Text;
-            NuevoContacto.ApellidoPaterno = txtApPaterno.Text;
-            NuevoContacto.ApellidoMaterno = txtApMaterno.Text;
-            NuevoContacto.Correo = txtCorreo.Text;
-            NuevoContacto.Edad = Convert.ToInt32(txtEdad.Text);
-
-            agenda.agregar(NuevoContacto);
-
+            txtMostrar.Text= agenda.listar();
             limpiarTxT();
         }
-
-        private void button_editar_Click(object sender, EventArgs e)
-        {
-            Contactos editar = agenda.buscar(Convert.ToInt32(txtTelefono.Text));
-            if (editar != null)
-            {
-                editar.Telefono = Convert.ToInt32(txtTelefono.Text);
-                editar.Nombre = txtNombre.Text;
-                editar.ApellidoPaterno = txtApPaterno.Text;
-                editar.ApellidoMaterno = txtApMaterno.Text;
-                editar.Correo = txtCorreo.Text;
-                editar.Edad = Convert.ToInt32(txtEdad.Text);
-            }
-            else MessageBox.Show("Contacto no encontrado");
-        }
-
         private void button_insertar_Click(object sender, EventArgs e)
         {
-            Contactos NuevoContacto = new Contactos();
-            NuevoContacto.Telefono = Convert.ToInt32(txtTelefono.Text);
-            NuevoContacto.Nombre = txtNombre.Text;
-            NuevoContacto.ApellidoPaterno = txtApPaterno.Text;
-            NuevoContacto.ApellidoMaterno = txtApMaterno.Text;
-            NuevoContacto.Correo = txtCorreo.Text;
-            NuevoContacto.Edad = Convert.ToInt32(txtEdad.Text);
+            Contactos Reemplazo = new Contactos();
+            Reemplazo.Telefono = Convert.ToInt64(txtTelefono.Text);
+            Reemplazo.Nombre = txtNombre.Text;
+            Reemplazo.ApellidoPaterno = txtApPaterno.Text;
+            Reemplazo.ApellidoMaterno = txtApMaterno.Text;
+            Reemplazo.Correo = txtCorreo.Text;
+            Reemplazo.Edad = Convert.ToInt32(txtEdad.Text);
 
-            //agenda.insertar(NuevoContacto,Convert.ToInt32(txtLugar.Text));
+            agenda.insertar(Reemplazo,Convert.ToInt32(txt_pos.Text));
 
             limpiarTxT();
         }

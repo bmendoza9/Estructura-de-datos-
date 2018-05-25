@@ -123,17 +123,11 @@ namespace ListasCirculares
             }
             while (contador <= tiempo)
             {
+                str += comienzo.Nombre + " - " + contador + "/";
                 TimeSpan convertidor = TimeSpan.FromMinutes(Convert.ToInt64(comienzo.Duracion));
                 contador = contador + convertidor;
-                comienzo = comienzo.Siguiente;
-                str += comienzo.Nombre + " - " + contador + "/";
-               
+                comienzo = comienzo.Siguiente;      
             }
-
-
-
-
-
             return "Desde base: "+ base_inicio +" Hora de inicio: "+ horaInicio.ToString() + " Hora de fin: "+horaFin.ToString() +" Duración del recorrido: "+ tiempo.ToString() + Environment.NewLine + Environment.NewLine + str + Environment.NewLine; 
         }
         public void insertar(Base nuevo, int pos)

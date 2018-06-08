@@ -1,0 +1,10 @@
+C:\Users\Bruno\source\repos\Vectoresordenados\Vectoresordenados\bin\Debug\Vectoresordenados.exe.config
+C:\Users\Bruno\source\repos\Vectoresordenados\Vectoresordenados\bin\Debug\Vectoresordenados.exe
+C:\Users\Bruno\source\repos\Vectoresordenados\Vectoresordenados\bin\Debug\Vectoresordenados.pdb
+C:\Users\Bruno\source\repos\Vectoresordenados\Vectoresordenados\obj\Debug\Vectoresordenados.csprojResolveAssemblyReference.cache
+C:\Users\Bruno\source\repos\Vectoresordenados\Vectoresordenados\obj\Debug\Vectoresordenados.Form1.resources
+C:\Users\Bruno\source\repos\Vectoresordenados\Vectoresordenados\obj\Debug\Vectoresordenados.Properties.Resources.resources
+C:\Users\Bruno\source\repos\Vectoresordenados\Vectoresordenados\obj\Debug\Vectoresordenados.csproj.GenerateResource.Cache
+C:\Users\Bruno\source\repos\Vectoresordenados\Vectoresordenados\obj\Debug\Vectoresordenados.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\source\repos\Vectoresordenados\Vectoresordenados\obj\Debug\Vectoresordenados.exe
+C:\Users\Bruno\source\repos\Vectoresordenados\Vectoresordenados\obj\Debug\Vectoresordenados.pdb

@@ -1,0 +1,10 @@
+C:\Users\Bruno\source\repos\Arbon binario\Arbon binario\bin\Debug\Arbon binario.exe.config
+C:\Users\Bruno\source\repos\Arbon binario\Arbon binario\bin\Debug\Arbon binario.exe
+C:\Users\Bruno\source\repos\Arbon binario\Arbon binario\bin\Debug\Arbon binario.pdb
+C:\Users\Bruno\source\repos\Arbon binario\Arbon binario\obj\Debug\Arbon_binario.Properties.Resources.resources
+C:\Users\Bruno\source\repos\Arbon binario\Arbon binario\obj\Debug\Arbon binario.csproj.GenerateResource.Cache
+C:\Users\Bruno\source\repos\Arbon binario\Arbon binario\obj\Debug\Arbon binario.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\source\repos\Arbon binario\Arbon binario\obj\Debug\Arbon binario.exe
+C:\Users\Bruno\source\repos\Arbon binario\Arbon binario\obj\Debug\Arbon binario.pdb
+C:\Users\Bruno\source\repos\Arbon binario\Arbon binario\obj\Debug\Arbon binario.csprojResolveAssemblyReference.cache
+C:\Users\Bruno\source\repos\Arbon binario\Arbon binario\obj\Debug\Arbon_binario.Form1.resources
